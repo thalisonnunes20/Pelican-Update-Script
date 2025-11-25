@@ -69,8 +69,8 @@ sudo ./update_pelican.sh
 
 Você verá as perguntas:
 
-Deseja atualizar o Painel (Panel)? [s/n]
-Deseja atualizar o Wings? [s/n]
+🔹Deseja atualizar o Painel (Panel)? [s/n]
+🔹Deseja atualizar o Wings? [s/n]
 
 
 Responda conforme quiser.
@@ -79,9 +79,9 @@ Responda conforme quiser.
 
 Antes de usar, edite no script estes valores (se necessário):
 
-PANEL_PATH="/var/www/pelican"   # caminho do painel
-PANEL_USER="www-data"           # usuário do webserver
-PANEL_GROUP="www-data"          # grupo do webserver
+🔹PANEL_PATH="/var/www/pelican"   # caminho do painel
+🔹PANEL_USER="www-data"           # usuário do webserver
+🔹PANEL_GROUP="www-data"          # grupo do webserver
 
 🛡️ Antes de atualizar — FAÇA BACKUP!
 ✔ Banco de dados
