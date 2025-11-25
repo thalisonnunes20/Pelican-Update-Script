@@ -34,7 +34,9 @@ Substituição segura do binário
 Reinício automático do serviço
 
 ✔ Sistema interativo com perguntas:
+
 🔹 Deseja atualizar o Painel? [s/n]
+
 🔹 Deseja atualizar o Wings? [s/n]
 
 ✔ Compatível com Ubuntu 22.04 / 24.04
@@ -70,6 +72,7 @@ sudo ./update_pelican.sh
 Você verá as perguntas:
 
 🔹Deseja atualizar o Painel (Panel)? [s/n]
+
 🔹Deseja atualizar o Wings? [s/n]
 
 
@@ -80,7 +83,9 @@ Responda conforme quiser.
 Antes de usar, edite no script estes valores (se necessário):
 
 🔹PANEL_PATH="/var/www/pelican"   # caminho do painel
+
 🔹PANEL_USER="www-data"           # usuário do webserver
+
 🔹PANEL_GROUP="www-data"          # grupo do webserver
 
 🛡️ Antes de atualizar — FAÇA BACKUP!
