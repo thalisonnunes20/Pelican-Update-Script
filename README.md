@@ -1,11 +1,11 @@
-🚀 Pelican Update Script
+# 🚀 Pelican Update Script
 Atualização automática do Pelican Panel + Pelican Wings em um único comando 💙
 
 Este repositório contém um script simples, seguro e automatizado para atualizar o Painel (Panel) e o Daemon (Wings) do projeto Pelican.
 
 Ideal para quem deseja manter o servidor sempre atualizado, sem perder tempo com comandos manuais repetitivos.
 
-✨ Recursos
+# ✨ Recursos
 
 ✔ Atualiza o Pelican Panel com:
 
@@ -41,31 +41,31 @@ Reinício automático do serviço
 ✔ Código limpo, comentado e fácil de editar
 ✔ Seguro (usa set -euo pipefail)
 
-📦 Como usar
+# 📦 Como usar
 📥 1. Baixar o repositório
 
 Via Git (recomendado):
 
-´´´bash
+```bash
 git clone https://github.com/SEU_USUARIO/pelican-update-script.git
 cd pelican-update-script
-´´´
+```
 
 Ou via ZIP (pelo navegador):
 
 Code → Download ZIP → extraia no servidor
 
-🔐 2. Tornar o script executável
+# 🔐 2. Tornar o script executável
 
-´´´bash
+```bash
 chmod +x update_pelican.sh
-´´´
+```
 
-🚀 3. Rodar o script
+# 🚀 3. Rodar o script
 
-´´´bash
+```bash
 sudo ./update_pelican.sh
-´´´
+```
 
 Você verá as perguntas:
 
@@ -75,7 +75,7 @@ Deseja atualizar o Wings? [s/n]
 
 Responda conforme quiser.
 
-⚙️ Configurações importantes
+# ⚙️ Configurações importantes
 
 Antes de usar, edite no script estes valores (se necessário):
 
@@ -86,19 +86,19 @@ PANEL_GROUP="www-data"          # grupo do webserver
 🛡️ Antes de atualizar — FAÇA BACKUP!
 ✔ Banco de dados
 
-´´´bash
+```bash
 mysqldump -u root -p SEU_BANCO > backup_panel.sql
-´´´
+```
 
 ✔ Arquivos do painel
-´´´bash
+```bash
 tar -czvf backup_panel.tar.gz /var/www/pelican
-´´´
+```
 
 ✔ Arquivo wings.yml (se existir)
-´´´bash
+```bash
 cp /etc/pelican/wings.yml wings_backup.yml
-´´´
+```
 
 📝 Pré-requisitos
 
@@ -112,7 +112,7 @@ Permissão sudo
 
 Wings configurado como serviço systemd
 
-🎯 Objetivo do projeto
+# 🎯 Objetivo do projeto
 
 Este script foi criado para:
 
