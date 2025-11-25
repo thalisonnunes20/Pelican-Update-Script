@@ -51,13 +51,9 @@ Ideal para quem deseja manter o servidor sempre atualizado, sem perder tempo com
 Via Git (recomendado):
 
 ```bash
-git clone https://github.com/SEU_USUARIO/pelican-update-script.git
+git clone https://github.com/thalisonnunes20/Pelican-Update-Script
 cd pelican-update-script
 ```
-
-Ou via ZIP (pelo navegador):
-
-Code → Download ZIP → extraia no servidor
 
 # 🔐 2. Tornar o script executável
 
