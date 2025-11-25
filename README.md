@@ -9,35 +9,35 @@ Ideal para quem deseja manter o servidor sempre atualizado, sem perder tempo com
 
 ✔ Atualiza o Pelican Panel com:
 
-🔹Modo manutenção
-
-🔹Download e extração da nova versão
-
-🔹Composer
-
-🔹Migrations
-
-🔹Limpeza e otimização
-
-🔹Reinício de filas
-
-🔹Ajuste de permissões
+  🔹Modo manutenção
+  
+  🔹Download e extração da nova versão
+  
+  🔹Composer
+  
+  🔹Migrations
+  
+  🔹Limpeza e otimização
+  
+  🔹Reinício de filas
+  
+  🔹Ajuste de permissões
 
 ✔ Atualiza o Pelican Wings com:
 
-🔹Identificação automática de arquitetura (amd64 / arm64)
-
-🔹Download da última versão
-
-🔹Substituição segura do binário
-
-🔹Reinício automático do serviço
+  🔹Identificação automática de arquitetura (amd64 / arm64)
+  
+  🔹Download da última versão
+  
+  🔹Substituição segura do binário
+  
+  🔹Reinício automático do serviço
 
 ✔ Sistema interativo com perguntas:
 
-🔹 Deseja atualizar o Painel? [s/n]
-
-🔹 Deseja atualizar o Wings? [s/n]
+  🔹 Deseja atualizar o Painel? [s/n]
+  
+  🔹 Deseja atualizar o Wings? [s/n]
 
 ✔ Compatível com Ubuntu 22.04 / 24.04
 
@@ -46,6 +46,7 @@ Ideal para quem deseja manter o servidor sempre atualizado, sem perder tempo com
 ✔ Seguro (usa set -euo pipefail)
 
 # 📦 Como usar
+
 📥 1. Baixar o repositório
 
 Via Git (recomendado):
@@ -55,13 +56,13 @@ git clone https://github.com/thalisonnunes20/Pelican-Update-Script
 cd pelican-update-script
 ```
 
-# 🔐 2. Tornar o script executável
+🔐 2. Tornar o script executável
 
 ```bash
 chmod +x update_pelican.sh
 ```
 
-# 🚀 3. Rodar o script
+🚀 3. Rodar o script
 
 ```bash
 sudo ./update_pelican.sh
@@ -69,9 +70,9 @@ sudo ./update_pelican.sh
 
 Você verá as perguntas:
 
-🔹Deseja atualizar o Painel (Panel)? [s/n]
-
-🔹Deseja atualizar o Wings? [s/n]
+  🔹Deseja atualizar o Painel (Panel)? [s/n]
+  
+  🔹Deseja atualizar o Wings? [s/n]
 
 
 Responda conforme quiser.
@@ -80,13 +81,14 @@ Responda conforme quiser.
 
 Antes de usar, edite no script estes valores (se necessário):
 
-🔹PANEL_PATH="/var/www/pelican"   # caminho do painel
+  🔹PANEL_PATH="/var/www/pelican"   # caminho do painel
+  
+  🔹PANEL_USER="www-data"           # usuário do webserver
+  
+  🔹PANEL_GROUP="www-data"          # grupo do webserver
 
-🔹PANEL_USER="www-data"           # usuário do webserver
+# 🛡️ Antes de atualizar — FAÇA BACKUP!
 
-🔹PANEL_GROUP="www-data"          # grupo do webserver
-
-🛡️ Antes de atualizar — FAÇA BACKUP!
 ✔ Banco de dados
 
 ```bash
@@ -103,7 +105,7 @@ tar -czvf backup_panel.tar.gz /var/www/pelican
 cp /etc/pelican/wings.yml wings_backup.yml
 ```
 
-📝 Pré-requisitos
+# 📝 Pré-requisitos
 
 🔹Ubuntu / Debian
 
