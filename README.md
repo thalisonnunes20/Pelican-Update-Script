@@ -9,29 +9,29 @@ Ideal para quem deseja manter o servidor sempre atualizado, sem perder tempo com
 
 ✔ Atualiza o Pelican Panel com:
 
-Modo manutenção
+🔹Modo manutenção
 
-Download e extração da nova versão
+🔹Download e extração da nova versão
 
-Composer
+🔹Composer
 
-Migrations
+🔹Migrations
 
-Limpeza e otimização
+🔹Limpeza e otimização
 
-Reinício de filas
+🔹Reinício de filas
 
-Ajuste de permissões
+🔹Ajuste de permissões
 
 ✔ Atualiza o Pelican Wings com:
 
-Identificação automática de arquitetura (amd64 / arm64)
+🔹Identificação automática de arquitetura (amd64 / arm64)
 
-Download da última versão
+🔹Download da última versão
 
-Substituição segura do binário
+🔹Substituição segura do binário
 
-Reinício automático do serviço
+🔹Reinício automático do serviço
 
 ✔ Sistema interativo com perguntas:
 
@@ -40,7 +40,9 @@ Reinício automático do serviço
 🔹 Deseja atualizar o Wings? [s/n]
 
 ✔ Compatível com Ubuntu 22.04 / 24.04
+
 ✔ Código limpo, comentado e fácil de editar
+
 ✔ Seguro (usa set -euo pipefail)
 
 # 📦 Como usar
@@ -107,21 +109,24 @@ cp /etc/pelican/wings.yml wings_backup.yml
 
 📝 Pré-requisitos
 
-Ubuntu / Debian
+🔹Ubuntu / Debian
 
-curl instalado
+🔹curl instalado
 
-php e composer funcionando
+🔹php e composer funcionando
 
-Permissão sudo
+🔹Permissão sudo
 
-Wings configurado como serviço systemd
+🔹Wings configurado como serviço systemd
 
 # 🎯 Objetivo do projeto
 
 Este script foi criado para:
 
 ✔ Evitar erros repetitivos ao atualizar manualmente
+
 ✔ Acelerar manutenção do servidor
+
 ✔ Simplificar a vida de administradores e hosters
+
 ✔ Garantir atualizações seguras e consistentes
