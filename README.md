@@ -53,7 +53,7 @@ Via Git (recomendado):
 
 ```bash
 git clone https://github.com/thalisonnunes20/Pelican-Update-Script
-cd pelican-update-script
+cd Pelican-Update-Script
 ```
 
 🔐 2. Tornar o script executável
